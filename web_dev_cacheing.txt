@@ -1,0 +1,62 @@
+                        +----------------------------------+
+                        |           Web Development        |
+                        |               Caching            |
+                        +------------------+---------------+
+                                           |
+                                           |
+                                           v
+            +--------------------------------------------------------+
+            |                   Load Balancer                        |
+            |   - Distributes incoming traffic across multiple       |
+            |     web servers to ensure optimal resource utilization |
+            +------------------------+-------------------------------+
+                                     |
+                                     |
+                                     v
+            +--------------------------------------------------------+
+            |                      CDN Cache                         |
+            |   - Distributes cached content across multiple edge    |
+            |     servers for faster content delivery to users       |
+            +------------------------+-------------------------------+
+                                     |
+                                     |
+                                     v
+            +--------------------------------------------------------+
+            |                   Server-Side Cache                    |
+            |   - Caches data or computed results on the server-side |
+            |     to reduce database queries and computations        |
+            |   - Examples: In-memory cache (Redis, Memcached),      |
+            |     file-based cache                                   |
+            +------------------------+-------------------------------+
+                                     |
+                                     |
+                                     v
+            +--------------------------------------------------------+
+            |                     Kafka                              |
+            |   - Distributed event streaming platform for building   |
+            |     real-time data pipelines and applications          |
+            |   - Used for asynchronous communication between        |
+            |     microservices and processing high volumes of       |
+            |     real-time data streams                             |
+            +------------------------+-------------------------------+
+                                     |
+                                     |
+                                     v
+            +--------------------------------------------------------+
+            |                     Database Cache                     |
+            |   - Stores frequently accessed query results or data   |
+            |     in memory to reduce database load and improve      |
+            |     query performance                                  |
+            |   - Examples: Database query result caching,           |
+            |     database server cache (e.g., MySQL query cache)    |
+            +------------------------+-------------------------------+
+                                     |
+                                     |
+                                     v
+            +--------------------------------------------------------+
+            |                      Object Cache                      |
+            |   - Caches serialized objects or data structures in    |
+            |     memory to improve application performance          |
+            |   - Often used for caching objects retrieved from      |
+            |     external services or databases                     |
+            +------------------------+-------------------------------+
