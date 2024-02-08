@@ -1,0 +1,93 @@
+ .NET Ecosystem
+|
+|-- .NET Framework
+|   |-- ASP.NET
+|   |   |-- Web Forms
+|   |   |   |-- Server Controls
+|   |   |   |-- ViewState
+|   |   |   `-- ASP.NET Web Forms Life Cycle
+|   |   |-- MVC (Model-View-Controller)
+|   |   |   |-- Controllers
+|   |   |   |-- Views
+|   |   |   |-- Models
+|   |   |   |-- Routing
+|   |   |   `-- Razor View Engine
+|   |   |-- Web API
+|   |   |-- SignalR (Real-time Web Functionality)
+|   |   |-- ASP.NET Core
+|   |       |-- MVC
+|   |       |-- Razor Pages
+|   |       |-- Middleware
+|   |       |-- Tag Helpers
+|   |       `-- ASP.NET Core Identity
+|   |
+|   |-- ADO.NET
+|   |   |-- Data Providers
+|   |   |   |-- SqlConnection (SQL Server)
+|   |   |   |-- OracleConnection (Oracle Database)
+|   |   |   |-- OleDbConnection (OleDb Data Source)
+|   |   |   |-- OdbcConnection (Odbc Data Source)
+|   |   |   |-- MySqlConnection (MySQL Database)
+|   |   |   `-- Custom Data Providers
+|   |   |
+|   |   |-- Connected Architecture
+|   |   |   |-- SqlCommand
+|   |   |   |-- SqlDataAdapter
+|   |   |   |-- SqlDataReader
+|   |   |   `-- DataSet
+|   |   |
+|   |   |-- Disconnected Architecture
+|   |   |   |-- SqlDataAdapter
+|   |   |   |-- DataSet
+|   |   |   |-- DataTable
+|   |   |   `-- DataRow
+|   |   |
+|   |   |-- LINQ to DataSet
+|   |   |
+|   |   |-- Entity Framework (EF)
+|   |   |   |-- DbContext
+|   |   |   |-- DbSet
+|   |   |   `-- Code-First, Database-First, Model-First Approaches
+|   |   |
+|   |   |-- Transactions
+|   |   |   |-- SqlTransaction
+|   |   |   |-- OleDbTransaction
+|   |   |   `-- TransactionScope
+|   |   |
+|   |   |-- Data Binding
+|   |   |
+|   |   `-- Command Builders
+|   |
+|   `-- Windows Communication Foundation (WCF)
+|       |-- Services
+|       |-- Contracts
+|       |-- Endpoints
+|       |-- Bindings
+|       `-- Hosting
+|
+|-- .NET Core
+|   |-- ASP.NET Core
+|   |   |-- MVC
+|   |   |-- Razor Pages
+|   |   |-- Middleware
+|   |   |-- Tag Helpers
+|   |   `-- ASP.NET Core Identity
+|   |
+|   |-- Blazor
+|   |
+|   |-- Entity Framework Core
+|   |   |-- DbContext
+|   |   |-- DbSet
+|   |   `-- Code-First, Database-First, Model-First Approaches
+|   |
+|   `-- Xamarin (Cross-platform Mobile Development)
+|
+|-- Other Components
+|   |-- Windows Presentation Foundation (WPF)
+|   |-- SignalR (Real-time Web Functionality)
+|   |-- Windows Workflow Foundation (WWF)
+|   `-- ... (Various other libraries and tools)
+|
+|-- .NET 5/6/7 (Continuation of .NET Core)
+|
+`-- Additional Libraries and Tools
